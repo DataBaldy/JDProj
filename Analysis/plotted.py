@@ -1,7 +1,7 @@
 __author__ = 'Jon'
 import matplotlib as mpl
 
-mpl.use('Agg')  # Must be used before pyplot import to use Agg
+mpl.use('TKAgg')  # Must be used before pyplot import to use Agg
 
 import matplotlib.pyplot as plt
 import numpy as np
